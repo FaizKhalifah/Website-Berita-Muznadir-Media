@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page{
+    margin: auto;
+    border: 1px solid black;
+    width: 1200px;
+    box-sizing: border-box;
+}
+
+.company{
+    background-color: rgb(190, 170, 170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.company>h1{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.company>h4{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+.navbar a{
+    display: inline-block;
+    color: red;
+    padding: 10px 20px;
+   text-decoration: none;
+}
+
+.navbar a :link{
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.AboutPage{
+    margin: 20px;
+}
+
+.footer{
+    height: 200px;
+    color: gray;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.footer>p{
+    padding-top: 30px;
+    margin: 20px;
+}

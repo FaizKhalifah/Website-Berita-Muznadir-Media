@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page{
+    margin: auto;
+    border: 1px solid black;
+    width: 1200px;
+    box-sizing: border-box;
+}
+
+.company{
+    background-color: rgb(190, 170, 170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.company>h1{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.company>h4{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+.navbar a{
+    display: inline-block;
+    color: red;
+    padding: 10px 20px;
+   text-decoration: none;
+}
+
+.navbar a :link{
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.newsPage{
+    border: inherit solid black;
+    width: 75%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.newsPage>h1{
+    font-weight: bold;
+    padding: 20px 0px 0px 20px;
+}
+
+.newsPage>h5{
+    color: rgb(180, 172, 172);
+    padding-left: 20px;
+}
+
+.fotoMeja4{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+
+.isiBerita{
+    margin: 0px 20px;
+    text-align: justify; 
+}
+
+.linkBerita{
+    width: 20%;
+    display: inline;
+    float: right;
+    border-style: solid;
+    border-width: 0px 0px 1px 1px;
+    border-color: rgb(156, 155, 155);
+}
+
+.linkBerita img{
+    display: block;
+    margin: 20px auto 10px;
+    width: 75%;  
+}
+
+.linkBerita img:hover{
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.linkBerita div{
+    text-align: center;
+}
+
+.linkBerita h4{
+    color: black;
+}
+
+.linkBerita h4:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.linkBerita>ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.linkBerita a{
+    text-decoration: none;
+}
+
+
+.reply{
+    width: 75%;
+   margin: 20px 20px;
+   border: 1px solid gray;
+}
+
+.reply p{
+    margin: 20px 20px
+}
+
+.reply form{
+    margin: 20px 20px;
+}
+
+.submitComment{
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 25px;
+    border: none;
+}
+
+.submitComment:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+    border: 1px solid red;
+}
+
+.footer{
+    height: 200px;
+    color: gray;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.footer>p{
+    padding-top: 30px;
+    margin: 20px;
+}

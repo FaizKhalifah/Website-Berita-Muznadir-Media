@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page{
+    margin: auto;
+    border: 1px solid black;
+    width: 1200px;
+    box-sizing: border-box;
+}
+
+.company{
+    background-color: rgb(190, 170, 170);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    box-sizing: border-box;
+}
+
+.company>h1{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.company>h4{
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.navbar>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li{
+    display: inline;
+    
+}
+.navbar a{
+    display: inline-block;
+    color: red;
+    padding: 10px 20px;
+   text-decoration: none;
+}
+
+.navbar a :link{
+    text-decoration: none;
+}
+
+.navbar a:visited{
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.homePage{
+    margin: auto;
+}
+
+.artikelTerbaru{
+    margin: 20px auto;
+    text-align: center;
+}
+
+.artikelTerbaru img{
+    display: block;
+    margin: 10px auto 10px;
+    height: 250px;
+}
+
+.artikelTerbaru img:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.artikelTerbaru h2{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.artikelTerbaru h2:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.KumpulanArtikel{
+    border: 2px solid rgb(177, 173, 173);
+    width: 95%;
+    margin: auto;
+    padding-bottom: 30px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.KumpulanArtikel div{
+    box-sizing: border-box;
+    width: 80%;
+    clear: left;
+    overflow: auto;
+}
+
+.KumpulanArtikel>ul{
+    list-style: none;
+}
+
+.KumpulanArtikel img{
+    display: block;
+    width: 250px;
+    margin: 20px 20px; 
+    float: left;
+}
+
+.KumpulanArtikel a{
+    color: black;
+    text-decoration: none;
+}
+
+.KumpulanArtikel h1{
+    padding: 70px 0;
+}
+
+.KumpulanArtikel div:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer{
+    height: 200px;
+    color: gray;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.footer>p{
+    padding-top: 30px;
+    margin: 20px;
+}
+
+
+
+
+
+
